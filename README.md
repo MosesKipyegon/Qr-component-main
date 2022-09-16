@@ -25,8 +25,8 @@ Seemed simple html css but actualy it is simple you just have to think around it
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/MosesKipyegon/Qr-component-main)
+- Live Site URL: [Add live site URL here](https://6324cde0748e56240f18cf8d--celadon-sunburst-7917f5.netlify.app/)
 
 ## My process
 
@@ -65,6 +65,6 @@ CSS Secrets pdf file that I coped online helped me position things vertically ce
 
 ## Author
 
-- Website - [Moses Kipyegon](https://www.your-site.com)
+- Website - [Moses Kipyegon](https://6324cde0748e56240f18cf8d--celadon-sunburst-7917f5.netlify.app/)
 - Frontend Mentor - [@MosesKipyegon](https://www.frontendmentor.io/profile/MosesKipyegon)
 - Twitter - [@Dihmoss](https://twitter.com/Dihmoss)
