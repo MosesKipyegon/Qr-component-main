@@ -1,0 +1,124 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    /* colours */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+
+    /* font size */
+    --fs-p: 0.9375em;
+
+    /* font family */
+    --ff-t: 'Outfit', sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background: var(--clr-light-gray);
+    font-family: 'outfit', sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background: var(--clr-light-gray);
+        font-family: 'outfit', sans-serif;
+        display: flex;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .main__container {
+        max-width: 70%;
+        max-height: 60%;
+        margin: auto;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    }
+
+    .card {
+        background: var(--clr-white);
+        padding: 1em;
+        border-radius: 1em;
+    }
+
+    .card__image {
+        max-width: 100%;
+        border-radius: .5em;
+    }
+
+    .card__title {
+        color: var(--clr-dark-blue);
+        font-family: var(--ff-t);
+        font-weight: 700;
+        line-height: 1.4;
+        text-align: center;
+        padding: .5em 0;
+    }
+
+    .card__copy {
+        color: var(--clr-grayish-blue);
+        font-size: var(--fs-p);
+        text-align: center;
+        padding: .5em .3em;
+    }
+}
+
+
+  .main__container {
+    max-width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card {
+    background: var(--clr-white);
+    padding: .8em;
+    border-radius: 1em;
+  }
+
+  .card__image {
+    max-width: 100%;
+    border-radius: .5em;
+  }
+
+  .card__title {
+    color: var(--clr-dark-blue);
+    font-family: var(--ff-t);
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .card__copy {
+    color: var(--clr-grayish-blue);
+    font-size: var(--fs-p);
+    text-align: center;
+    padding: 1.2em;
+  }
+
+
+
+
+  /* Attribution */
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+  }
